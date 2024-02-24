@@ -1,0 +1,993 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OLX</title>
+
+    <!----------This Is Bootstrap CSS Link---------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!----------This Is Fontawesome Link---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!----------This Is My CSS Link---------->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!----------This Is Header Start---------->
+    <header class="position-fixed">
+
+      <!----------This Is Bootstrap Navbar Start---------->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary mx-5 my-nav1-logo">
+        <div class="container">
+          <a class="navbar-brand " href="#"><img class="" src="images/OLX-Logo.png" width="33px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item d-flex gap-3">
+                <a class="nav-link active motors ms-4" aria-current="page" href="#"><span class="r-bordr p-2 me-1"><i class="fa-solid fa-car c-blu"></i></span><span class="motors">MOTORS</span></a>
+              </li>
+              <li class="nav-item d-flex gap-3">
+                <a class="nav-link active property ms-4" href="#"><span class="r-bordr p-2 me-1"><i class="fa-solid fa-building c-blu"></i></span><span class="property">PROPERTY</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!----------This Is Bootstrap Navbar End---------->
+
+      <!----------This is Bootstrap Navbar 2 Start---------->
+      <nav class=" my-nav2">
+        <div class="container navbar navbar-expand-lg bg-body-tertiary">
+          <a class="navbar-brand" href="#"><img src="images/OLX-Logo2.webp" width="100px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse gap-3" id="navbarSupportedContent">
+            <div class="d-flex my-nav2-input1 bg-white rounded nav-div-border">
+              <i class="fa-solid fa-magnifying-glass p-3 bg-white"></i>
+              <input class="form-control me-2 border-0 rounded" type="search" placeholder="Search" value="Pakistan" aria-label="Search">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-white rounded">
+                <li class="nav-item dropdown bg-white"">
+                  <a class="nav-link dropdown-toggle bg-white"" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-primary" href="#"><b>Use current location</b></a></li>
+                    <li><hr class="dropdown-divider bg-white""></li>
+                    <li><a class="dropdown-item text-dark bg-white" href="#">See ads in all Pakistan</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex rounded my-nav2-divborder">
+              <form class="d-flex w-100 " role="search">
+                <input class="form-control w-100 nav2-input-border rounded py-2 " type="search" placeholder="Find Cars, Mobile Phone and more..." aria-label="Search">
+                <button class="btn btn-dark rounded-0" type="submit"><i class="fa-solid fa-magnifying-glass nav2-btn-icon p-1"></i></button>
+              </form>
+            </div>
+              <button class="btn"><a class="nav-link my-nav2-a" href="#"><b>Login</b></a></button>                                  
+              <button class="btn my-sellbtn-nv2"><img class="my-nav2-img" src="images/olx-sell-btn.png" alt=""></button>
+          </div>
+        </div>
+      </nav>
+      <!----------This is Bootstrap Navbar 2 End---------->
+
+    </header>
+    <!----------This Is Header End---------->
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Header2 Start -->
+    <div class="div-box-shadow margin-top-nav3">
+
+      <!----------This is Bootstrap Navbar 3 Start---------->
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b>All categories</b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                  <li><a class="dropdown-item" href="#">Vehicles</a></li>
+                  <li><a class="dropdown-item" href="#">Bikes</a></li>
+                  <li><a class="dropdown-item" href="#">Property for Sale</a></li>
+                  <li><a class="dropdown-item" href="#">Video & Photography</a></li>
+                  <li><a class="dropdown-item" href="#">Jobs</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" aria-current="page" href="#">Mobile Phones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" href="#">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" href="#">Motorcycles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" href="#">Houses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" href="#">Video-Audios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" href="#">Tablets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active my-nav3-a" href="#">Land & Plots</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!----------This is Bootstrap Navbar 3 End---------->
+
+    </div>
+    <!-- Header2 End -->
+
+    <!----------This is Main Start---------->
+    <main>
+
+      <!----------This is Carousel Ad Section 1 Start---------->
+      <section class="container mt-3">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/carusle-img.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Carousel Ad Section 1 End---------->
+
+      <!----------This is All Categories Section 2 Start---------->
+      <section class="mt-5 sec-2">
+        <div class="container">
+          <h3 class="mb-3">All categories</h3>
+          <div class="d-flex container gap-5">
+            <figure>
+              <img class="rounded-pill" src="images/mobile-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Mobiles</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/vehicles-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Vehicles</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/property-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Property For <br> Sale</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/rent-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Property For <br> Rent</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/electronic-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Electronics & <br>Home <br>Appliances</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/bikes-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Bikes</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/business-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Business, <br>Industrial & <br>Agriculture</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/services-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Services</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/jobs-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Jobs</b></figcaption>
+            </figure>
+          </div>
+          <div class="container d-flex gap-5">
+            <figure>
+              <img class="rounded-pill" src="images/animals-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Animals</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/furniture-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Furniture & <br>Home Decor</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/fashion-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Fashion & <br>Beauty</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/books-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Books, Sports <br>& Hobbies</b></figcaption>
+            </figure>
+            <figure>
+              <img class="rounded-pill" src="images/kids-cat-img.png" width="100px" alt="">
+              <figcaption class="text-center"><b>Kids</b></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!----------This is All Categories Section 2 End---------->
+
+      <!----------This is Section Mobile Phones Cards Start---------->
+      <section>
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Mobile Phones</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images/mobiles.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 100,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>One Plus 6,7,8,9,10 Pro Mobiles</h6>
+                </div>
+                <div class="location mt-3">
+                  <p>Township, Lahore <br>1 weeks ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images/vivo.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 135,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Vivo Note 20 Ultra</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Model Town Link Road, Lahore <br>2 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images/iphone.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 355,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Iphone 12pro</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Education Town, Lahore <br>6 days ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images/huawie.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 129,999 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Huawie Mi 11 Ultra 512GB 5G</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Main Boulevard Gulberg, Lahore <br>2 days ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Mobile Phones Cards End---------->
+
+      <!----------This is Section Cars Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Cars</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images2/alto.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 1,635,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>Suzuki Alto Ultimate 2020</h6>
+                </div>
+                <div class="location mt-3">
+                  <p>H-8, Islamabad <br>11 minutes ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images2/carola.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 3,990,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Toyota Carola XLI 2019</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>G Magnolia Park, Gujranwala <br>2 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images2/city.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 2,575,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Honda City 1.0 1999</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Tariq Road, Karachi <br>1 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images2/nisan.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 14,400,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Nisan Luxary Converted</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>DHA City, Lahore <br>3 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Cars Cards End---------->
+
+      <!----------This is Section Bikes & Motorcycles Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Bikes & Motorcycles</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images3/125.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 180,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>Honda 125 Model 2021</h6>
+                </div>
+                <div class="location mt-3">
+                  <p>Gulshan-e-Iqbal, Karachi <br>6 days ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images3/gs-150.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 310,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Suzuki GS150 SE Model 2022</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Gulistan-e-Jauhar - Block 16-A, Karachi <br>3 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images3/heavybike.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 140,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Crown 150 Fighter 2020 Model</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Jut Line, Karachi <br>5 days ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images3/ybr.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 200,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Yamaha YBR z 125 Like New</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Haveli Lakha, Punjab <br>1 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Bikes & Motorcycles Cards End---------->
+
+      <!----------This is Section Houses Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Houses</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images4/house-4.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 220,000,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>35 marla luxary royal palace </h6>
+                </div>
+                <div class="location mt-3">
+                  <p>DHA Phase 5 - Sector A, Islamabad <br>1 days ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images4/house-3.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 55,000,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>15 Marla Double Unit Luxary </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>PIA Housing Scheme, Lahore <br>2 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images4/house-2.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 38,000,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>10 Marla New Beautiful House </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Bahria Town - Rafi Block, Lahore <br>1 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images4/house-1.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 32,500,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>5 Marla - 2 Unit Designer </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>DHA Phase 5 - Sector F, Islamabad <br>3 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Houses Cards End---------->
+
+      <!----------This is Section Video-Audios Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Video-Audios</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images5/tv-1.avif" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 20,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>Samsung 43 inch Smart TV </h6>
+                </div>
+                <div class="location mt-3">
+                  <p>Shahdara, Lahore <br>2 weeks ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images5/tv-2.avif" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 23,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Great Offer 32 inch TCL UHD </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Saddar, Lahore <br>3 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images5/tv-3.avif" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 245,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>LG LED TV Model 2017 </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Malir Cantonment, Karachi <br>4 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images5/tv-4.avif" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 55,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>IPTV, HD, 4K, UHD, Super  </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Blue Area, Islamabad <br>4 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Video-Audios Cards End---------->
+
+      <!----------This is Section Tablets Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Tablets</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images6/tab-1.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 7,999 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>Tabs Trending Brands (Samsung) </h6>
+                </div>
+                <div class="location mt-3">
+                  <p>Allama Iqbal Town, Lahore <br>5 days ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images6/tab-2.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 18,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Sharp Aqous R2, R3, Aqous Zero </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Bhawana Bazar, Faisalabad <br>3 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images6/tab-3.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 175,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>XiaomiBook S 12.4 2019 New </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Bhimber Road, Gujrat <br>2 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images6/tab-4.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 235,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Samsung Galaxy Tab S8 Ultra </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Landhi No 5, Karachi <br>4 days ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Tablets Cards End---------->
+
+      <!----------This is Section Land & Plots Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Land & Plots</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images7/land-1.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rs 51,000,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6>24 Marla Residential Plot 285/1 For Sale </h6>
+                </div>
+                <div class="location mt-3">
+                  <p>DHA Phase 5 - Block G, Lahore <br>1 weeks ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images7/land-2.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 7,800,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Residential Plot Of 5 Marla Is Available </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Park View City - Extnsion Block, Lahore <br>48 minutes ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images7/land-3.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 5,900,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>Most Beautiful Plot For Sale </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>F-17, Islamabad <br>2 hours ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images7/land-4.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Rs 1,700,000 <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6>LDA City Lahore 5 Marla Residential </h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>LDA City, Lahore <br>2 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Land & Plots Cards End---------->
+
+      <!----------This is Section Jobs Cards Start---------->
+      <section class="my-sec-mrgn">
+        <div class="container mt-5">
+          <div class="d-flex position-relative">
+            <h3>Jobs</h3>
+            <a class="position-absolute end-0 nav-link text-primary" href="#"><b>View more ></b></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images8/job-1.jpeg" width="100%" height="150px" alt="">
+                </div>
+               <div class="all-description ps-3">
+                <div class="price-icone mt-3">
+                  <h5 class="position-relative">Rider Job (Kravemart) <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                </div>
+                <div class="description mt-3">
+                  <h6 style="visibility: hidden;">One Plus 6,7,8,9,10 Pro Mobiles</h6>
+                </div>
+                <div class="location mt-3">
+                  <p>Gulistan-e-Jauhar, Karachi <br>2 weeks ago</p>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images8/job-2.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Female Assistan Required <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6 style="visibility: hidden;">One Plus 6,7,8,9,10 Pro Mobiles</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Anarkali, Lahore <br>22 hours ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images8/job-3.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Online Job Available Male <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6 style="visibility: hidden;">One Plus 6,7,8,9,10 Pro Mobiles</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Others, Karachi <br>3 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            <div class="col-md-3 ">
+              <div class="my-card border rounded">
+                <div class="my-image w-100">
+                  <img src="cards-images8/job-4.jpeg" width="100%" height="150px" alt="">
+                </div>
+                <div class="all-description ps-3">
+                  <div class="price-icone mt-3">
+                    <h5 class="position-relative">Data Entry Assignment <span class="position-absolute end-0 pe-3"><i class="fa-regular fa-heart my-heart"></i></span></h5>
+                  </div>
+                  <div class="description mt-3">
+                    <h6 style="visibility: hidden;">One Plus 6,7,8,9,10 Pro Mobiles</h6>
+                  </div>
+                  <div class="location mt-3">
+                    <p>Amber Prime, Karachi <br>4 weeks ago</p>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!----------This is Section Jobs Cards End---------->
+
+    </main>
+    <!----------This is Main End---------->
+
+    <!----------This is Footer Start---------->
+    <footer class="my-footer">
+
+      <!----------This is Footer Image Ad Section 1 Start---------->
+      <div class="container ">
+        <div class="row">
+          <div class="col-4">
+            <img class="my-f-main-image" src="footer-images/footer-image.webp" alt="">
+          </div>
+          <div class="col-4 border-right">
+            <h3 class="pt-4 ps-5">TRY THE OLX APP</h3>
+            <h5 class="pt-4 ps-5">Buy, sell and find just about anything using the app on your mobile.</h5>
+          </div>
+          <div class="col-4  ps-4">
+            <p class="pt-5 ">GET YOUR APP TODAY</p>
+            <div class="footer-icons ">
+              <img class="cursor-pointer" src="footer-images/footer-icon--image.svg" width="128px" alt="">
+              <img class="ms-1 cursor-pointer" src="footer-images/footer-icon--image2.svg" width="128px"  alt="">
+              <img class="ms-1 cursor-pointer" src="footer-images/footer-icon--image3.svg" width="128px" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------This is Footer Image Ad Section 1 End---------->
+
+      <!----------This is Footer Categories Information Section 2 Start---------->
+      <div class="my-f-sec-2 pb-5">
+        <div class="d-flex justify-content-evenly">
+          <div class="mt-3">
+            <h6>POPULAR CATEGORIES</h6>
+            <p class="mt-3">Cars</p>
+            <p>Flats for rent</p>
+            <p>Mobile Phones</p>
+            <p>Jobs</p>
+          </div>
+          <div class="mt-3">
+            <h6>TRENDING SEARCHES</h6>
+            <p class="mt-3">Bikes</p>
+            <p>Watches</p>
+            <p>Books</p>
+            <p>Dogs</p>
+          </div>
+          <div class="mt-3">
+            <h6>ABOUT US</h6>
+            <p class="mt-3">About Dubizzle Group</p>
+            <p>OLX Blog</p>
+            <p>Contact Us</p>
+            <p>OLX for Businesses</p>
+          </div>
+          <div class="mt-3">
+            <h6>OLX</h6>
+            <p class="mt-3">Help</p>
+            <p>Sitemap</p>
+            <p>Terms of use</p>
+            <p>Privacy Policy</p>
+          </div>
+          <div class="mt-3">
+            <h6>FOLLOW US</h6>
+            <div class="my-f-div cursor-pointer">
+              <img src="footer-images/icons-1.svg" width="24px" alt="">
+              <img class="ms-1" src="footer-images/icons-2.svg" width="24px" alt="">
+              <img class="ms-1" src="footer-images/icons-3.svg" width="24px" alt="">
+              <img class="ms-1" src="footer-images/icons-4.svg" width="24px" alt="">
+            </div>
+            <div class="mt-5 cursor-pointer">
+              <img  src="footer-images/footer-icon--image.svg" width="84px" alt="">
+              <img class="ms-1" src="footer-images/footer-icon--image2.svg" width="84px"  alt="">
+              <img class="ms-1" src="footer-images/footer-icon--image3.svg" width="84px" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------This is Footer Categories Information Section 2 End---------->
+
+      <!----------This is Footer Copy Right Section 3 Start---------->
+      <div class="my-f-last-div">
+        <div class="container text-end py-1">
+          <p class="text-white mt-2 me-2"><span class="me-2"><b>Free Classifieds in Pakistan</b></span> <span> . © 2006-2024 OLX</span></p>
+        </div>
+      </div>
+      <!----------This is Footer Copy Right Section 3 End---------->
+
+    </footer>
+    <!----------This is Footer End---------->
+
+    <!----------This Is Bootstrap JS Link---------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
